@@ -87,10 +87,7 @@ int main() {
         }
     }
     int c = 0;
-    int r = 5;
-    int pr[10][10];
-    while (Good(a) && c != 2 && r > 0) {
-        r--;
+    while (Good(a) && c != 2) {
         int b[10][10];
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++) {
